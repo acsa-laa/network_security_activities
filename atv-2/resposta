@@ -1,0 +1,17 @@
+Atividade Prática - Vigenère
+• 2. Qual é a mensagem?
+
+W gags domj a esgpi so eiu dm goze qnyjaaxa hikinq frmh tvkdea irvwfea eaee frmh peefoa se gvugw
+
+• Solução:
+
+chave: ipanema
+
+W gags domj a esgpi so eiu dm goze qnyjaaxa hikinq frmh tvkdea irvwfea eaee frmh peefoa se gvugw
+i pane maip a nemai pa nem ai pane maipanem aipane maip anemai panemai pane maip anemai pa nemai
+
+desencriptada:
+
+o rato roeu a roupa do rei de roma enquanto haviam tres tigres tristes para tres pratos de trigo
+
+
