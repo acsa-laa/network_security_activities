@@ -19,7 +19,8 @@ void Esteganografia::inserirMensagem(string mensagem, string arquivo)
         cout << endl << " Erro ao acessar o arquivo";
         return;
     }
-    string mensg = mensagem;
+    char c = 3;
+    string mensg = mensagem + c;
 
     fread(&cab.id, sizeof(cab.id), 1, this->arquivo);
     fread(&cab.tamanho, sizeof(cab.tamanho), 1, this->arquivo);
