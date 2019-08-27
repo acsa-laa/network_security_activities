@@ -92,7 +92,7 @@ string Esteganografia::extrairMensagem(void)
         mensagem += caracter;
         indice += 3;
     }
-    while (caracter != '3');
+    while (caracter != '\0');
  
     mensagem = mensagem.substr(0, mensagem.length() - 1);
     return mensagem;
